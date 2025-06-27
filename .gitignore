@@ -1,0 +1,61 @@
+# -------------------------------
+# 🧱 Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# 🧪 Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+*.expo
+
+# 🧠 GPT / Local AI assets
+openai_logs/
+chat_sessions/
+gpt_prompts/
+
+# 🧾 Supabase (local CLI files if ever used)
+.supabase/
+.supabase/config.toml
+supabase/migrations/
+
+# 🔑 Credentials & Env
+.env
+.env.*
+.env*.local
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.p8
+*.mobileprovision
+
+# 🖥️ Platform-specific
+.DS_Store
+Thumbs.db
+
+# 🛠️ Build artifacts
+*.tsbuildinfo
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.orig.*
+
+# 🛠️ Android/iOS Native (for ejected apps)
+android/
+ios/
+*.xcworkspace
+*.xcodeproj
+Pods/
+
+# 🔍 Metro / Watchman
+.metro-health-check*
+.watchmanconfig
+
+# ❓ Other
+app-example
